@@ -3,6 +3,8 @@ Calling `pca(x)` performs principal component on `x`, a matrix with observations
 
 # Algorithm Description
 
+See also [http://echen.me/posts/transpose-trick](http://echen.me/posts/transpose-trick) (for better math formatting).
+
 ## A simpler eigenvector calculation
 Suppose we want to perform PCA on an $m \times n$ observation matrix $A$, where each row is an observation and each column is a dimension of the observation. For example, in the context of [eigenfaces](http://en.wikipedia.org/wiki/Eigenface), each row may be an image and each column a pixel.
 
